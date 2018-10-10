@@ -1,0 +1,33 @@
+.links {
+  cursor: pointer;
+  display: block;
+  font-size: 13px;
+  font-family: arial;
+  text-align: right;
+  vertical-align: middle;
+  margin: 6px;
+}
+
+.mouse {
+  text-decoration: none;
+  margin: 10px;
+}
+
+.mouse:hover {
+  text-decoration: underline;
+}
+
+.gamaO {
+  width: 38px;
+  vertical-align: middle;
+}
+
+.cuadritos {
+  width: 37px;
+  vertical-align: middle;
+}
+
+.campana {
+  vertical-align: middle;
+  margin: 10px;
+}
