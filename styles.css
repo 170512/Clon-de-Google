@@ -31,3 +31,65 @@
   vertical-align: middle;
   margin: 10px;
 }
+
+.googleMex {
+  width: 400px;
+  margin: 80px auto 10px auto;
+  display: block;
+}
+
+.barra {
+  margin: 2px auto 20px auto;
+  display: block;
+  width: 570px;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 25px;
+  border: 1px solid lightgray;
+}
+
+ .botones {
+  text-align: center;
+ }
+
+ .buttons {
+   padding: 10px;
+   border-radius: 3px;
+
+ }
+
+/* .mex {
+  font-family: arial;
+  border: 1px solid #E6E8E8;
+  padding: 10px;
+  background-color: #F3F7F7;
+  margin: 0;
+  color: #6E6E6E;
+   text-align: 500px;
+}
+
+.palabras {
+  font-family: arial;
+  border: 1px solid #E6E8E8;
+  padding: 10px;
+  background-color: #F3F7F7;
+  margin: 0 0 0 0;
+  font-size: 14px;
+  cursor: pointer;
+  color: #6E6E6E; */
+/* } */
+ 
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.divDos {
+  display: inline-block;
+
+}
