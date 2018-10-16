@@ -3,7 +3,7 @@
  <head>
      <meta charset="utf-8">
      <link rel="stylesheet" href="styles.css">
-     <title>Mi clon de Google</title>
+     <title>Mi clon de google</title>
  </head>
 
  <body>
@@ -23,12 +23,17 @@
      <section>
        <div>
         <img class="googleMex" src="GoogleMex.png" alt="logo google">
-        <input class="barra" id="" type="text">
+        <div class="barra">
+          <input class="barra_dos" id="search" type="text">
+          <img class="micro" src="Google_mic.svg.png">
+        </div>
        </div>
        <div class="botones">
-         <button class="buttons">Buscar con Google</button>
+         <button class="buttons" id="buscar-google">Búsqueda de Google</button>
          <button class="buttons">Me siento con suerte</button>
        </div>
+       <p class="ofrecido">Google ofrecido en:
+         <a href="www.google.com.mx">Español (Latinoamérica)</a></p>
       </section>
 
          <footer>
@@ -36,20 +41,20 @@
                <p class="mex">México</p>
             </div>
             <div>
-              <div>
-                 <p class="palabras"><a href="https://adwords.google.com/intl/en_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"></a>Publicidad</p>
-                 <p class="palabras"><a hrfe="https://www.google.com.mx/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none"></a>Negocios</p>
-                 <p class="palabras"><a href="https://www.google.com.mx/intl/en_mx/about/?utm_source=google.com&utm_medium=referral&utm_campaign=hp-footer&fg=1"></a>Acerca de</p>                </div>
+              <div class="divis">
+                 <p class="palabras"><a href="https://adwords.google.com/intl/en_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Públicidad</a></p>
+                 <p class="palabras"><a hrfe="https://www.google.com.mx/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Negocios</a></p>
+                 <p class="palabras"><a href="https://www.google.com.mx/intl/en_mx/about/?utm_source=google.com&utm_medium=referral&utm_campaign=hp-footer&fg=1">Acerca de</a></p>
               </div>
-              <div class="divDos">
-                 <p class="palabras_dos"><a href="https://policies.google.com/privacy?hl=en&gl=mx"></a>Privacidad</p>
-                 <p class="palabras_dos"><a href="https://policies.google.com/terms?hl=en&gl=mx"></a>Terminos</p>
-                 <p class="palabras_dos"><a href="https://www.google.com.mx/preferences?hl=en-MX&fg=1"></a>Ajustes</p>
+              <div class="divis_dos">
+                 <p class="palabras_dos"><a href="https://policies.google.com/privacy?hl=en&gl=mx">Privacidad</a></p>
+                 <p class="palabras_dos"><a href="https://policies.google.com/terms?hl=en&gl=mx">Terminos</a></p>
+                 <p class="palabras_dos"><a href="https://www.google.com.mx/preferences?hl=en-MX&fg=1">AjustesAjustes</a></p>
               </div>
             </div>
          </footer>
 
-
+      <script src="scripts.js"></script>
   </body>
 
 </html>
